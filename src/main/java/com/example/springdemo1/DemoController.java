@@ -5,8 +5,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class DemoController {
-    @RequestMapping
+    @RequestMapping("/")
     public int demo(){
-        return 55;
+        return 5559;
     }
 }
